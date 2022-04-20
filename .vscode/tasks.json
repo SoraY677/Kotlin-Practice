@@ -8,6 +8,9 @@
             "command": "kotlinc",
             "type": "shell",
             "args": ["-script", "${fileBasename}"],
+            "group": {
+                "isDefault": true
+              },
         },
     ]
 }
