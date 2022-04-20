@@ -1,5 +1,5 @@
 fun main() {
-    println("Hello, world!")
+	val numbers:Array<Int> = arrayOf(1,2)
+    println(numbers[0])
 }
-
 main()
